@@ -1,14 +1,14 @@
 import {expect} from 'chai'
-import starWarsNames from '.'
+import countryNames from '.'
 
 describe('world-countries-capital', function () {
 
     it('should be an array of strings', function () {
-        expect(starWars.all).to.satisfy(isArrayOfStrings);
+        expect(countryNames.all).to.satisfy(isArrayOfStrings);
     });
 
-    it('should allow me to get a random name from the list', () => {
-        expect(starWarsNames.random()).to.satisfy(isIncludedIn(starWarsNames.all))
+    it('should allow me to get a random country name from the list', () => {
+        expect(countryNames.random()).to.satisfy(isIncludedIn(countryNames.all))
     });
 
 });

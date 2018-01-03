@@ -1,9 +1,9 @@
 import uniqueRandomArray from 'unique-random-array';
-import starWarsNames from './world-countries-capital.json';
+import countryNames from './country-names.json';
 
 const mainExport = {
-  all: starWarsNames,
-  random: uniqueRandomArray(starWarsNames),
+  all: countryNames,
+  random: uniqueRandomArray(countryNames),
 };
 
 export default mainExport
