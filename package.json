@@ -1,7 +1,7 @@
 {
   "name": "world-countries-capital",
   "version": "1.0.0",
-  "description": "Get random Star Wars names",
+  "description": "Get random World countries (and capital) info",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf dist",
