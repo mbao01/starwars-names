@@ -1,3 +1,3 @@
-# starwars-names
+# world-countries-capital
 
-For all your random Star Wars character needs
+World countries (and capital) library. Find very basic geographical, cultural, etc. information about all countries of the world.
