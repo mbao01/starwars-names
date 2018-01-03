@@ -101,5 +101,9 @@
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
+  },
+  "engines": {
+    "node": "8.5.0",
+    "npm": "5.3.0"
   }
 }
